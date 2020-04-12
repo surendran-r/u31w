@@ -10,7 +10,7 @@ The control packet send by the drone contains the information about all control'
 | Offset | Length | Value | Description | Notes |
 |--------|--------|-------|-------------|-------|
 | 1 | 1 byte | 0x66 | Header |
-| 2 | 1 byte | 0x00 (0%) to 0xFF (200%) | Aliron (%) | Default 100% |
+| 2 | 1 byte | 0x00 (0%) to 0xFF (200%) | Aileron (%) | Default 100% |
 | 3 | 1 byte | 0x00 (0%) to 0xFF (200%) | Elevator (%) | Default 100% |
 | 4 | 1 byte | 0x00 (0%) to 0xFF (100%) | Throttle (%) | Default 50% |
 | 5 | 1 byte | 0x00 (0%) to 0xFF (200%) | Rudder (%) | Default 100% |
